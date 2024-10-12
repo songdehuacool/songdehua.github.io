@@ -73,6 +73,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: 部署到GitHub Pages
+      - name: songdehua.github.io
         id: deployment
         uses: actions/deploy-pages@v2
